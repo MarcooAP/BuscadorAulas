@@ -1,0 +1,74 @@
+[
+  {
+    "id": "entrada_principal",
+    "name": "entrada_principal",
+    "displayName": "Entrada Principal",
+    "description": "Acceso principal en Edificio 4",
+    "floor": 0,
+    "building": "E4",
+    "keywords": ["ENTRADA", "PRINCIPAL", "ACCESO"]
+  },
+  {
+    "id": "entrada_secundaria",
+    "name": "entrada_secundaria",
+    "displayName": "Entrada Secundaria",
+    "description": "Acceso junto al Edificio 1",
+    "floor": 0,
+    "building": "Exterior",
+    "keywords": ["ENTRADA SECUNDARIA", "ACCESO", "ESTACIONAMIENTO E1"]
+  },
+  {
+    "id": "gestion_escolar",
+    "name": "gestion_escolar",
+    "displayName": "Gestión Escolar",
+    "description": "Trámites en Edificio 4",
+    "floor": 0,
+    "building": "E4",
+    "keywords": ["GESTION", "ESCOLARES", "TRAMITES"]
+  },
+  {
+    "id": "direccion",
+    "name": "direccion",
+    "displayName": "Dirección",
+    "description": "Dirección en Edificio 4 Piso 1",
+    "floor": 1,
+    "building": "E4",
+    "keywords": ["DIRECCION", "DIRECTOR"]
+  },
+  {
+    "id": "biblioteca",
+    "name": "biblioteca",
+    "displayName": "Biblioteca",
+    "description": "Biblioteca en Edificio 4",
+    "floor": 0,
+    "building": "E4",
+    "keywords": ["BIBLIOTECA", "LIBROS"]
+  },
+  {
+    "id": "cafeteria",
+    "name": "cafeteria",
+    "displayName": "Cafetería",
+    "description": "Comedor junto a E2",
+    "floor": 0,
+    "building": "Exterior",
+    "keywords": ["CAFETERIA", "COMIDA"]
+  },
+  {
+    "id": "palapas",
+    "name": "palapas",
+    "displayName": "Palapas",
+    "description": "Zona de descanso junto a E3",
+    "floor": 0,
+    "building": "Exterior",
+    "keywords": ["PALAPAS", "DESCANSO"]
+  },
+  {
+    "id": "estacionamiento_cic",
+    "name": "estacionamiento_cic",
+    "displayName": "Estacionamiento CIC",
+    "description": "Estacionamiento al fondo del campus",
+    "floor": 0,
+    "building": "Exterior",
+    "keywords": ["ESTACIONAMIENTO", "CIC", "AUTOS"]
+  }
+]
