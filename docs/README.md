@@ -1,0 +1,1 @@
+Project documentation deliverables can be stored in this directory. The ETS requires a technical document (maximum 3 pages) and a technical/user manual in addition to the public source repository and demonstration video.
