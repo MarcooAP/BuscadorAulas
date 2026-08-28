@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Permisos de cámara -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <!-- ARCore: se declara como feature REQUERIDA del hardware de cámara -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <!--
+        ARCore como opcional:
+        - android:required="false" permite instalación en dispositivos sin ARCore.
+        - La app comprobará disponibilidad antes de entrar a la pantalla AR.
+    -->
+    <uses-feature
+        android:name="android.hardware.camera.ar"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BuscadorAulas">
+
+        <!--
+            Meta-dato que indica a Google Play que la app usa ARCore.
+            android:value="optional" → instalable sin ARCore.
+            Usar "required" solo si AR es indispensable para funcionar.
+        -->
+        <meta-data
+            android:name="com.google.ar.core"
+            android:value="optional" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.BuscadorAulas"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
