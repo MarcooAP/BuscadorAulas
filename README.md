@@ -84,6 +84,10 @@ En Windows:
 
 La representación de ubicaciones, salones y rutas usada por la aplicación está incluida en los archivos de `assets` y en el grafo de navegación del proyecto. El mapa y las indicaciones fueron construidos específicamente para el prototipo académico de ESCOM.
 
+## Entregables ETS
+
+La documentación del proyecto se organiza en `docs/`. Para el ETS se contempla el repositorio público, documento técnico, manual técnico/de usuario y video de demostración.
+
 ## Autor
 
 Marco Antonio Anaya  
