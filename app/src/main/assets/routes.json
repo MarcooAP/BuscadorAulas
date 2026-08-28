@@ -1,0 +1,89 @@
+[
+  {
+    "fromId": "entrada_principal",
+    "toId": "direccion",
+    "estimatedMinutes": 3,
+    "steps": [
+      { "type": "FORWARD", "description": "Avanza recto por el pasillo principal", "distanceMeters": 15.0 },
+      { "type": "RIGHT", "description": "Gira a la derecha hacia las escaleras", "distanceMeters": 5.0 },
+      { "type": "FORWARD", "description": "Sube al primer piso", "distanceMeters": 10.0 },
+      { "type": "LEFT", "description": "Gira a la izquierda al llegar arriba", "distanceMeters": 3.0 },
+      { "type": "DESTINATION", "description": "Has llegado a la Dirección", "distanceMeters": 0.0 }
+    ]
+  },
+  {
+    "fromId": "entrada_principal",
+    "toId": "gestion_escolar",
+    "estimatedMinutes": 2,
+    "steps": [
+      { "type": "FORWARD", "description": "Avanza recto al entrar", "distanceMeters": 10.0 },
+      { "type": "RIGHT", "description": "Gira a la derecha", "distanceMeters": 5.0 },
+      { "type": "DESTINATION", "description": "Has llegado a Gestión Escolar", "distanceMeters": 0.0 }
+    ]
+  },
+  {
+    "fromId": "entrada_principal",
+    "toId": "cafeteria",
+    "estimatedMinutes": 2,
+    "steps": [
+      { "type": "FORWARD", "description": "Avanza recto hacia el patio", "distanceMeters": 20.0 },
+      { "type": "LEFT", "description": "Gira a la izquierda", "distanceMeters": 5.0 },
+      { "type": "DESTINATION", "description": "Has llegado a la Cafetería", "distanceMeters": 0.0 }
+    ]
+  },
+  {
+    "fromId": "entrada_principal",
+    "toId": "salon_4b",
+    "estimatedMinutes": 5,
+    "steps": [
+      { "type": "FORWARD", "description": "Avanza recto al pasillo central", "distanceMeters": 15.0 },
+      { "type": "RIGHT", "description": "Gira a la derecha hacia las escaleras", "distanceMeters": 5.0 },
+      { "type": "FORWARD", "description": "Sube cuatro pisos", "distanceMeters": 30.0 },
+      { "type": "LEFT", "description": "Gira a la izquierda", "distanceMeters": 3.0 },
+      { "type": "FORWARD", "description": "Avanza por el pasillo del 4o piso", "distanceMeters": 20.0 },
+      { "type": "DESTINATION", "description": "Has llegado al Salón 4B", "distanceMeters": 0.0 }
+    ]
+  },
+  {
+    "fromId": "gestion_escolar",
+    "toId": "direccion",
+    "estimatedMinutes": 2,
+    "steps": [
+      { "type": "FORWARD", "description": "Sal hacia el pasillo", "distanceMeters": 5.0 },
+      { "type": "LEFT", "description": "Gira a la izquierda hacia las escaleras", "distanceMeters": 5.0 },
+      { "type": "FORWARD", "description": "Sube al primer piso", "distanceMeters": 10.0 },
+      { "type": "DESTINATION", "description": "Has llegado a la Dirección", "distanceMeters": 0.0 }
+    ]
+  },
+  {
+    "fromId": "cafeteria",
+    "toId": "entrada_principal",
+    "estimatedMinutes": 2,
+    "steps": [
+      { "type": "RIGHT", "description": "Gira a la derecha", "distanceMeters": 5.0 },
+      { "type": "FORWARD", "description": "Avanza por el patio", "distanceMeters": 20.0 },
+      { "type": "DESTINATION", "description": "Has llegado a la Entrada Principal", "distanceMeters": 0.0 }
+    ]
+  },
+  {
+    "fromId": "direccion",
+    "toId": "biblioteca",
+    "estimatedMinutes": 2,
+    "steps": [
+      { "type": "FORWARD", "description": "Avanza por el pasillo del primer piso", "distanceMeters": 15.0 },
+      { "type": "DESTINATION", "description": "Has llegado a la Biblioteca", "distanceMeters": 0.0 }
+    ]
+  },
+  {
+    "fromId": "entrada_principal",
+    "toId": "laboratorio_redes",
+    "estimatedMinutes": 4,
+    "steps": [
+      { "type": "FORWARD", "description": "Avanza recto", "distanceMeters": 15.0 },
+      { "type": "RIGHT", "description": "Gira a la derecha", "distanceMeters": 5.0 },
+      { "type": "FORWARD", "description": "Sube al segundo piso", "distanceMeters": 15.0 },
+      { "type": "FORWARD", "description": "Avanza por el pasillo de laboratorios", "distanceMeters": 20.0 },
+      { "type": "DESTINATION", "description": "Has llegado al Laboratorio de Redes", "distanceMeters": 0.0 }
+    ]
+  }
+]
